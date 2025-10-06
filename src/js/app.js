@@ -48,7 +48,7 @@ function render(variables = {}) {
   let linkedin =
     variables.linkedin === null
       ? `https://linkedin.com/school/4geeksacademy`
-      : variables.linkedin; //aquí tengo que pedir Link porque el usuario de linkedin es nombre + apellidos + numeroAleatorioID
+      : `https://www.linkedin.com/in/${variables.linkedin}`;
   let instagram =
     variables.instagram === null
       ? `https://instagram.com/4geeksacademy`
